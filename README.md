@@ -17,6 +17,7 @@
 ## Installation
   
   npm init / npm i inquirer
+  https://watch.screencastify.com/v/rv6NrluRPCqnMouCUBvr
 
 <a name ='usage'></a> 
 ## Usage

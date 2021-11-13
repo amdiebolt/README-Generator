@@ -1,9 +1,9 @@
 
-# wqer
+# erwtewrt
 
 ## Description
   
-  weqr
+  erwt
 
 ## Table of Contents
   
@@ -16,31 +16,31 @@
 <a name ='installation'></a> 
 ## Installation
   
-  qwer
+  erwt
 
 <a name ='usage'></a> 
 ## Usage
   
-  qwer
+  ewrt
 
 <a name ='contributing'></a> 
 ## Contributing
   
-  qw
+  ewrt
 
 <a name ='tests'></a>  
 ## Tests
   
-  erwqe
+  etrw
 
 <a name ='licenses'></a> 
 ## Licenses
   
   undefined
-  MIT,Mozilla,Apache,Unlicense
+  Apache
 
 <a name ='questions?'></a> 
 ## Questions?
   
-  qwer
-  wqer
+  wert
+  wert

@@ -1,19 +1,19 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if(license.data.license === 'Apache'){
+  if(license.license === 'Apache'){
     return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
   }
-  else if(license.data.license === 'MIT'){
+  else if(license.license === 'MIT'){
     return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
   }
-  else if(license.data.license === 'Mozilla'){
+  else if(license.license === 'Mozilla'){
     return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
   }
-  else if(license.data.license === 'Unlicense'){
+  else if(license.license === 'Unlicense'){
     return '[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)'
   }
-  else if(license.data.license === 'none'){
+  else if(license.license === 'none'){
     return ''
   }
 }
@@ -66,14 +66,16 @@ function generateMarkdown(data) {
 <a name ='licenses'></a> 
 ## Licenses
   
+  This project uses the ${data.license} license
   ${renderLicenseBadge(data)}
-  ${data.license}
+  
 
 <a name ='questions?'></a> 
 ## Questions?
   
-  ${data.github}
-  ${data.email}`
+  Reach me on Github here: [${data.github}](https://github.com/${data.github})
+  or
+  Email here : ${data.email}`
 ;
 }
 

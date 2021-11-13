@@ -67,14 +67,18 @@ function generateMarkdown(data) {
 ## Licenses
   
   This project uses the ${data.license} license
-  ${renderLicenseBadge(data)}
+  
+  [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
+
   
 
 <a name ='questions?'></a> 
 ## Questions?
   
   Reach me on Github here: [${data.github}](https://github.com/${data.github})
+  
   or
+  
   Email here : ${data.email}`
 ;
 }

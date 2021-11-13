@@ -1,9 +1,9 @@
 
-# ewqr
+# README Generator
 
 ## Description
   
-  qwer
+  This project generates a professional README file quickly and effortlessly
 
 ## Table of Contents
   
@@ -16,31 +16,37 @@
 <a name ='installation'></a> 
 ## Installation
   
-  qwer
+  npm init / npm i inquirer
 
 <a name ='usage'></a> 
 ## Usage
   
-  qewr
+  When you need a professional README, simply put in your information and viola! A ready-made README
 
 <a name ='contributing'></a> 
 ## Contributing
   
-  wqer
+  Alex Diebolt
 
 <a name ='tests'></a>  
 ## Tests
   
-  weqr
+  trial and error
 
 <a name ='licenses'></a> 
 ## Licenses
   
-  undefined
-  MIT
+  This project uses the MIT license
+  
+  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+  
 
 <a name ='questions?'></a> 
 ## Questions?
   
-  qwer
-  qwer
+  Reach me on Github here: [amdiebolt](https://github.com/amdiebolt)
+  
+  or
+  
+  Email here : alexander.diebolt@gmail.com
